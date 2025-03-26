@@ -1,0 +1,10 @@
+// indexTest.js
+const assert = require('assert');
+
+// Describe block to group tests
+describe('Array', function() {
+  // It block to define an individual test case
+  it('should return -1 when the value is not present', function() {
+    assert.strictEqual([1, 2, 3].indexOf(4), -1);
+  });
+});

@@ -1,0 +1,14 @@
+{
+  "name": "phase-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+ "scripts": {
+  "test": "mocha './tests/**/*.js'"
+},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
